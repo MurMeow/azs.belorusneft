@@ -1,0 +1,28 @@
+.content__blank{
+  h3{
+    text-align: center;
+  }
+  input{
+    width: 100%;
+  }
+  table{
+    .title{
+      td{
+        font-weight: bold;
+      }
+    }
+    td.button{
+      color: red;
+      min-width: 1rem;
+    }
+    td{
+      color: black;
+      font-size: calc(12px);
+      border: 1px solid #82909e;
+      min-width: 10rem;
+      font-weight: 300;
+      padding: 1px 10px;
+    }
+
+  }
+}

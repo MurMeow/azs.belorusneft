@@ -1,0 +1,53 @@
+header{
+  width: 100%;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+
+
+  .icon{
+    list-style-type: none;
+    margin: 0 0 0 0rem;
+    justify-content: center;
+  }
+  .menuMain{
+    position: relative;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: space-between;
+  li{
+    margin: 0 0.5rem;
+  }
+  }
+
+  .header__menu--icon-authorization{
+    border: 1px solid #82909e;
+    padding: 0.1rem 0.5rem;
+
+}
+
+  .header__outIn--block{
+    top: 1rem;
+    right: 1rem;
+    text-align: end;
+    .header__menu--icon-iGoOut{
+
+    }
+    .header__menu__nickname{
+      margin-top: 0.3rem;
+    }
+  }
+
+}
+
+
+@media screen and (max-width: 20.999rem){
+  .header{
+    display: none;
+  }
+}
+
+
+

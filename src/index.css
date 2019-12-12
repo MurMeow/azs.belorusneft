@@ -1,0 +1,232 @@
+/*fonts--->*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', "Roboto", sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fff;
+  color: #00ac54;
+  font-size: calc(10px + 2vmin);
+  box-sizing: border-box;
+  padding: 0;
+  font-weight: bold;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.flex{
+  display: flex;
+}
+.container{
+  padding: 1rem 2rem;
+}
+
+.header__menu--icon-logo{
+  background-image: url(images/b-logo.png);
+  background-repeat: no-repeat;
+  height: 77px;
+  width: 403px;
+  display: inline-block;
+}
+
+.header__icon--choice{
+  background-image: url(images/choice_logo.jpg);
+  background-repeat: no-repeat;
+  height: 70px;
+  width: 70px;
+  display: inline-block;
+}
+
+.header__icon--nationalBrand{
+  background-image: url(images/NM-2016.jpg);
+  background-repeat: no-repeat;
+  height: 73px;
+  width: 77px;
+  display: inline-block;
+}
+
+.header__icon--gold{
+  background-image: url(images/gold-by.jpg);
+  background-repeat: no-repeat;
+  height: 77px;
+  width: 75px;
+  display: inline-block;
+}
+
+.content__azs__img{
+  background-image: url(images/azs.jpg);
+  background-repeat: no-repeat;
+  height: 21rem;
+  width: 44rem;
+  display: inline-block;
+  background-size: cover
+}
+
+.content__weather--icon-04n{
+  background-image: url(images/05nosun.png);
+  background-repeat: no-repeat;
+  height: 42px;
+  width: 50px;
+  display: inline-block;
+  background-position: 0px 0px;
+  background-size: contain;
+  position: absolute;
+  top: 2px;
+  right: 2px;
+}
+.content__weather--icon-10n{
+  background-image: url(images/rain.png);
+  background-repeat: no-repeat;
+  height: 42px;
+  width: 50px;
+  display: inline-block;
+  background-position: 0px 0px;
+  background-size: contain;
+  position: absolute;
+  top: 1px;
+  right: 1px;
+}
+.content__weather--icon-03n{
+  background-image: url(images/04d.png);
+  background-repeat: no-repeat;
+  height: 42px;
+  width: 50px;
+  display: inline-block;
+  background-position: 0px 0px;
+  background-size: contain;
+  position: absolute;
+  top: 1px;
+  right: 1px;
+}
+.content__weather--icon-13n{
+  background-image: url(images/13d.png);
+  background-repeat: no-repeat;
+  height: 42px;
+  width: 50px;
+  display: inline-block;
+  background-position: 0px 0px;
+  background-size: contain;
+  position: absolute;
+  top: 1px;
+  right: 1px;
+}
+.stocks1{
+  background-image: url(images/applepaymastercardcoffe.jpg);
+  background-repeat: no-repeat;
+  height: 195px;
+  width: 200px;
+  display: inline-block;
+  background-position: 0px 0px;
+  background-size: contain;
+}
+.stocks2{
+  background-image: url(images/combo.png);
+  background-repeat: no-repeat;
+  height: 195px;
+  width: 200px;
+  display: inline-block;
+  background-position: 0px 0px;
+  background-size: contain;
+}
+.stocks3{
+  background-image: url(images/dutty_free.jpg);
+  background-repeat: no-repeat;
+  height: 195px;
+  width: 200px;
+  display: inline-block;
+  background-position: 0px 0px;
+  background-size: contain;
+}
+.stocks4{
+  background-image: url(images/belshina-6.jpg);
+  background-repeat: no-repeat;
+  height: 195px;
+  width: 200px;
+  display: inline-block;
+  background-position: 0px 0px;
+  background-size: contain;
+}
+.stocks5{
+  background-image: url(images/Belarus_N_ZV_BNS.png);
+  background-repeat: no-repeat;
+  height: 195px;
+  width: 200px;
+  display: inline-block;
+  background-position: 0px 0px;
+  background-size: contain;
+}
+
+
+@media screen and (max-width: 20.999rem) {
+  body{
+    font-size: calc(10px + 0.5vmin);
+  }
+  .header__menu--icon-authorization{
+    background-image: url(images/authoriz-min.svg);
+    background-repeat: no-repeat;
+    width: 55px;
+    height: 50px;
+    background-position: -11px -4px;
+    background-size: contain;
+    position: absolute;
+    top: -0.2rem;
+    right: 0;
+  }
+  .header__menu--icon-iGoOut{
+    background-image: url(images/b-logo-min-out.png);
+    background-repeat: no-repeat;
+    width: 74px;
+    height: 72px;
+    background-size: contain;
+    position: absolute;
+    top: -0.9rem;
+    right: -0.1rem;
+  }
+
+  .header__menu--icon-logo{
+    background-image: url(images/b-logo-min.png);
+    background-repeat: no-repeat;
+    width: 74px;
+    height: 72px;
+    background-size: contain;
+    position: absolute;
+    top: -1.3rem;
+    right: -0.1rem;
+  }
+  .header__menu--icon-hamburger{
+    background-image: url(images/white-menu-icon.png);
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 35px;
+    background-size: contain;
+    position: absolute;
+    top: 0.2rem;
+    left: 1rem;
+  }
+  .content__azs__img{
+
+    background-image: url(images/azs.jpg);
+    background-repeat: no-repeat;
+    height: 0;
+    width: 0;
+    display: inline-block;
+    background-size: cover
+  }
+  .container{
+    padding: 5px 5px;
+  }
+}
+
+

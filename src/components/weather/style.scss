@@ -1,0 +1,24 @@
+.weather__card{
+  border: 1px solid #82909e;
+  margin: 0.5rem;
+  color: #82909e;
+  font-size: calc(12px);
+  position: relative;
+  .date{
+    border: 1px solid #82909e;
+    background: #00ac54;
+    color: wheat;
+  }
+}
+
+@media screen and  (min-width: 49rem){
+
+}
+
+@media screen and (max-width: 48.999rem) and (min-width: 21rem){
+
+}
+
+@media screen and (max-width: 20.999rem){
+
+}

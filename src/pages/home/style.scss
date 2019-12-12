@@ -1,0 +1,28 @@
+.homePage{
+  justify-content: space-around;
+  text-align: center;
+    .prise{
+      width: 8rem;
+      font-size: calc(10px + 1vmin);
+      margin: -3rem 0 0 0;
+      color: #82909e;
+    }
+    .weather{
+      width: 10rem;
+      font-size: calc(10px + 1vmin);
+      margin: -1.9rem 0 0 0;
+      color: #82909e;
+    }
+}
+
+@media screen and (max-width: 20.999rem) {
+  .homePage {
+    .prise {
+      margin: 0;
+    }
+
+    .weather {
+      margin: 0;
+    }
+  }
+}

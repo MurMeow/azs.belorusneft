@@ -1,0 +1,2 @@
+export const CHECK_ESHF_SUCCESS = 'CHECK_ESHF_SUCCESS';
+

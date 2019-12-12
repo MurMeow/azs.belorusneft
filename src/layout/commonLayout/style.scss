@@ -1,0 +1,54 @@
+.main__container{
+  width: 100%;
+  min-height: 28rem;
+  box-sizing: border-box;
+  padding: 2rem 2rem;
+.main--content__container{
+  margin: 0 auto;
+}
+}
+
+
+
+@media screen and (max-width: 20.999rem){
+  .main__container {
+    padding: 0.5rem 0.5rem;
+    min-height: 0;
+  }
+}
+
+
+
+@-webkit-keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.zoomIn {
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+  animation-duration: 0.2s;
+}
+
+
+
+
