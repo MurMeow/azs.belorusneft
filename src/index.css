@@ -73,7 +73,18 @@ code {
   display: inline-block;
   background-size: cover
 }
-
+.content__weather--icon-01n{
+  background-image: url(images/sun.png);
+  background-repeat: no-repeat;
+  height: 42px;
+  width: 50px;
+  display: inline-block;
+  background-position: 0px 0px;
+  background-size: contain;
+  position: absolute;
+  top: 1px;
+  right: 1px;
+}
 .content__weather--icon-04n{
   background-image: url(images/05nosun.png);
   background-repeat: no-repeat;
