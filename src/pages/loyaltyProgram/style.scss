@@ -1,0 +1,63 @@
+.content__loyalProg {
+  color: #373d43;
+  font-size: calc(10px + 1vmin);
+  .img{
+    justify-content: center;
+  }
+  h2, h3{
+    color: red;
+    margin-bottom: 1rem;
+  }
+  h3{
+    text-align: center
+  }
+  .text{
+    width: fit-content;
+    margin: auto;
+  }
+  .loyaltyProgram__masterard, .loyaltyProgram__img1, .loyaltyProgram__img2{
+    margin: 0;
+  }
+  .mastercad__block{
+    border: 1px solid #82909e;
+  }
+  div{
+    margin: 1rem 0;
+  }
+  a{
+    color: #00ac54;
+    text-decoration: underline;
+  }
+  .text__colorBlack_underline{
+    color: black;
+    text-decoration: underline;
+  }
+  .text__colorBlack{
+    color: black;
+  }
+  .conditions{
+    border: 1px solid #82909e;
+    p{
+      padding: 0.5rem;
+    }
+  }
+  .block__discounts{
+    p{
+      margin: 0.4rem 0;
+    }
+    table{
+      text-align: center;
+      margin: 1rem 0;
+      tr.title{
+        td{
+          padding: 0.5rem;
+          color: black;
+        }
+      }
+      td{
+        border: 1px solid #82909e;
+      }
+    }
+  }
+
+}

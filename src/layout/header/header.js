@@ -42,7 +42,7 @@ class Header extends React.Component {
                 </div>
               :
               <Link to={"/authorization/"}>
-                <div  className="header__menu--icon-authorization">личный кабинет</div>
+                <div  className="header__menu--icon-authorization">войти</div>
               </Link>
             }
 

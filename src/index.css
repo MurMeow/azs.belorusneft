@@ -73,18 +73,7 @@ code {
   display: inline-block;
   background-size: cover
 }
-.content__weather--icon-01n{
-  background-image: url(images/sun.png);
-  background-repeat: no-repeat;
-  height: 42px;
-  width: 50px;
-  display: inline-block;
-  background-position: 0px 0px;
-  background-size: contain;
-  position: absolute;
-  top: 1px;
-  right: 1px;
-}
+
 .content__weather--icon-04n{
   background-image: url(images/05nosun.png);
   background-repeat: no-repeat;
@@ -123,6 +112,18 @@ code {
 }
 .content__weather--icon-13n{
   background-image: url(images/13d.png);
+  background-repeat: no-repeat;
+  height: 42px;
+  width: 50px;
+  display: inline-block;
+  background-position: 0px 0px;
+  background-size: contain;
+  position: absolute;
+  top: 1px;
+  right: 1px;
+}
+.content__weather--icon-01n{
+  background-image: url(images/sun.png);
   background-repeat: no-repeat;
   height: 42px;
   width: 50px;
@@ -178,7 +179,43 @@ code {
   background-position: 0px 0px;
   background-size: contain;
 }
-
+.loyaltyProgram__img1{
+  background-image: url(images/2019121.jpg);
+  background-repeat: no-repeat;
+  height: 220px;
+  width: 300px;
+  display: inline-block;
+  background-position: 0px 0px;
+  background-size: contain;
+}
+.loyaltyProgram__img2{
+  background-image: url(images/2019122.jpg);
+  background-repeat: no-repeat;
+  height: 220px;
+  width: 300px;
+  display: inline-block;
+  background-position: 0px 0px;
+  background-size: contain;
+}
+.loyaltyProgram__masterard{
+  background-image: url(images/mastercard.jpg);
+  background-repeat: no-repeat;
+  height: 176px;
+  width: 42rem;
+  display: inline-block;
+  background-position: 0px 0px;
+  background-size: contain;
+}
+.loyaltyProgram__points{
+  background-image: url(images/kopi.jpg);
+  background-repeat: no-repeat;
+  height: 170px;
+  width: 39rem;
+  display: block;
+  margin: 0 auto;
+  background-position: 0px 0px;
+  background-size: contain;
+}
 
 @media screen and (max-width: 20.999rem) {
   body{

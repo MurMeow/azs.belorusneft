@@ -5,6 +5,7 @@ import Authorization from './pages/authorization/authorization';
 import Eshf from './pages/echf/eshf'
 import LoyaltyCard from './pages/loyaltyCard/loyaltyCard'
 import StocksContainer from './pages/stocks/stocksContainer'
+import LoyaltyProgram from './pages/loyaltyProgram/loyaltyProgram';
 
 
 
@@ -14,6 +15,7 @@ function Router() {
       <Switch>
         <Route exact path="/authorization/" component={Authorization} />
         <Route exact path="/eshf/" component={Eshf} />
+          <Route exact path="/loyaltyProgram/" component={LoyaltyProgram} />
         <Route exact path="/loyaltyCard/" component={LoyaltyCard} />
         <Route exact path="/stocks/" component={StocksContainer} />
         <Route exact path="" component={Home} />

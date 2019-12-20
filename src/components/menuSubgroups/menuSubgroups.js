@@ -22,10 +22,13 @@ class MenuSubgroups extends React.Component {
           <Link to={"/eshf/"}> ЭСЧФ </Link>
         </li>
         <li>
-          <Link to={"/loyaltyCard/"}> Карта лояльности </Link>
+          <Link to={"/loyaltyProgram/"}> Программа лояльности </Link>
         </li>
         <li>
           <Link to={"/stocks/"}> Акции </Link>
+        </li>
+        <li>
+            <Link to={"/loyaltyCard/"}> Личный кабинет </Link>
         </li>
       </ul>
     );

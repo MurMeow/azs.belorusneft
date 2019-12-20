@@ -11,8 +11,8 @@ class Eshf extends React.Component {
       UNP: '',
       FIO: '',
       tel:'',
-      check: ''
-
+      check: '',
+      notificationIsOpen: false
     };
   }
 
@@ -37,15 +37,23 @@ class Eshf extends React.Component {
     })
   };
 
+  notificationClose = () => {
+  this.setState({
+    notificationIsOpen: false
+  })
+}
+
   submitForm = () => {
     this.props.checkESHF(this.state.UNP, this.state.FIO, this.state.tel, this.state.check,);
     this.setState({
       UNP: '',
       FIO: '',
       tel:'',
-      check: ''
+      check: '',
+      notificationIsOpen: true
     })
     console.log(this.props)
+    setTimeout(this.notificationClose, 3000)
   }
 
   render() {
@@ -99,7 +107,7 @@ class Eshf extends React.Component {
                    value={this.state.FIO}
             />
             <input type="text"
-                   placeholder="контактный телефон"
+                   placeholder="контактный телефон: +375(__) ___-__-__ "
                    onChange={this.handleInputChangeTel}
                    value={this.state.tel}
             />
@@ -108,6 +116,8 @@ class Eshf extends React.Component {
                    value="отправить"
                    className="button"/>
           </form>
+          {this.state.notificationIsOpen?<div className="notification">ЭСЧФ отправлена</div>:<div></div>}
+
         </div>
       );
     }
